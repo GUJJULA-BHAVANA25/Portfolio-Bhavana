@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(250, 247, 238);
+    font-family: 'Courier New', monospace;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgb(176, 184, 181);
+    border-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bhavana-Title{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#bhavana-Title{
+    color: black;
+    cursor: pointer;
+}
+.All-Components{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.All-Components ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust spacing */
+}
+.All-Components ul li {
+    display: inline-block;
+}
+.All-Components ul button{
+    background-color:  rgb(250, 247, 238);
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.All-Components ul button a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar{
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+}
