@@ -70,3 +70,27 @@ body{
     width: 20px;
     height: 20px;
 }
+.main-body{
+    left: 150px;
+    top: 100px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.self-introduction{
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+.About-me{
+    font-size: smaller;
+    padding: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 30px;
+}
+.self-introduction-name{
+    padding: 0px;
+    margin: 0px;
+
+}
