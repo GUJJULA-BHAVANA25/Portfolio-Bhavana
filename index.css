@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .bhavana-Title{
     width: 250px;
@@ -58,13 +57,13 @@ body{
     color: black;
 }
 .sidebar{
-        width: 150px;
-        height: 100%;
-        position: fixed;
-        top: 100px;
-        left: 0px;
-        display: flex;
-        flex-direction: column; /* Changed from column-reverse to column */
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: column; /* Changed from column-reverse to column */
 }
 .Contact img{
     width: 20px;
@@ -90,12 +89,12 @@ body{
     font-size: larger;
     margin-bottom: 5px; /* Add some space */
     position: relative; /* Change absolute to relative */
-    top: -2px;
+    top: -200px;
     margin-bottom: 20px;
 }
 .self-introduction-name{
     padding: 0px;
-    top: 100px; /* Add space */
+    top: -90px; /* Add space */
     position: relative; /* Change absolute to relative */
     margin-bottom: 40px;
 }
@@ -104,5 +103,44 @@ body{
     max-width: 600px;
     font-size: large;
     position: relative;
-    top: -60px;
+    top: -260px;
+}
+#myself-introduction{
+    position: relative;
+    top: 45px;
+}
+.linkedin-button{
+    display: flex;
+    position: relative;
+    top: 510px;
+    left: 140px;
+}
+#linkedin-button{
+    background-color: rgb(250, 247, 238);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.ABOUT-ME{
+    display: block;
+    position: relative;
+    top: 750px;
+    left: 140px;
+    width: 700px;
+    height: fit-content;
+}
+#about-me{
+    display: flex;
+}
+.EXPERIENCE{
+    background-color: black;
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1300px;
+    left: 230px;
 }
