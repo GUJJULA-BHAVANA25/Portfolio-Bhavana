@@ -135,12 +135,38 @@ body{
     display: flex;
 }
 .EXPERIENCE{
-    background-color: black;
     width: 900px;
-    height: 50px;
+    height: fit-content;
     display: flex;
-    justify-content: center;
     position: relative;
     top: 1300px;
     left: 230px;
+}
+.EasyHiring{
+    width: fit-content;
+    height: fit-content;
+}
+#EasyHiring{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    font-size: 20px;
+}
+.work-experience{
+    font-size: 30px;
+}
+.Details-easyHiring{
+    position: relative;
+    top: 90px;
+    left: -5px;
+    font-size: larger;
+
+}
+#Details-easyHiring{
+    margin: 0px;
+    padding: 0px;
+}
+#Period-easyHring{
+    margin: 0px;
+    padding: 0px;
 }
